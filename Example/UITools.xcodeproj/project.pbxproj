@@ -14,6 +14,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		9339C8ABCF650BCE77FFDB38 /* Pods_UITools_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB8CE2844C3EF6C0BD089254 /* Pods_UITools_Example.framework */; };
+		A678C3F2231E06A600045B7A /* SubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A678C3F1231E06A600045B7A /* SubViewController.swift */; };
 		D360AD1BD7D096D4D0AE580E /* Pods_UITools_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8313F3CABE8173D8F9CBCC5 /* Pods_UITools_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,7 +31,7 @@
 /* Begin PBXFileReference section */
 		026B75295B8B4F35F8CB62E0 /* Pods-UITools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITools_Example.release.xcconfig"; path = "Target Support Files/Pods-UITools_Example/Pods-UITools_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2F2843154993BE5B4A3CC519 /* Pods-UITools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITools_Tests.release.xcconfig"; path = "Target Support Files/Pods-UITools_Tests/Pods-UITools_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		590F42364753A9563BD902C9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		590F42364753A9563BD902C9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* UITools_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITools_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,9 +42,10 @@
 		607FACE51AFB9204008FA782 /* UITools_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITools_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7AE590FCF94AA9E184CCD2FE /* UITools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = UITools.podspec; path = ../UITools.podspec; sourceTree = "<group>"; };
+		7AE590FCF94AA9E184CCD2FE /* UITools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = UITools.podspec; path = ../UITools.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8B89FE4583CDD006DBBDA3CF /* Pods-UITools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITools_Example.debug.xcconfig"; path = "Target Support Files/Pods-UITools_Example/Pods-UITools_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9417CCC3AE0CDEA5017CD524 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9417CCC3AE0CDEA5017CD524 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A678C3F1231E06A600045B7A /* SubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubViewController.swift; sourceTree = "<group>"; };
 		AB8CE2844C3EF6C0BD089254 /* Pods_UITools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UITools_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8313F3CABE8173D8F9CBCC5 /* Pods_UITools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UITools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F23BB9D7D09A559F21949895 /* Pods-UITools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITools_Tests.debug.xcconfig"; path = "Target Support Files/Pods-UITools_Tests/Pods-UITools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -77,7 +79,6 @@
 				F23BB9D7D09A559F21949895 /* Pods-UITools_Tests.debug.xcconfig */,
 				2F2843154993BE5B4A3CC519 /* Pods-UITools_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -107,6 +108,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				A678C3F1231E06A600045B7A /* SubViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -227,6 +229,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -335,6 +338,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A678C3F2231E06A600045B7A /* SubViewController.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);

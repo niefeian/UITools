@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		28FB8FEEA32C22A1DF79A908B0D2C173 /* Pods-UITools_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB4771463A27B29931E8A72815743FB3 /* Pods-UITools_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4E378632B8ABE4AB9BE95677A475A578 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD7311C3A4C49A720ACC816EC16E3CC /* ReplaceMe.swift */; };
 		630C2DDF0577A8EB4225DC5020FD4306 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		66888662850C43608A98DE080A311840 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		9AACC453CC9F9D3B8BD2DA79BE79B8AE /* Pods-UITools_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F645BF73E210960F28FCDFB2AF7C033 /* Pods-UITools_Example-dummy.m */; };
 		A5BB7E61A9F1F9ADF4C45FC8419BD161 /* Pods-UITools_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01AB9FB39609EE79996D93FFC8355881 /* Pods-UITools_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A678C3EF231E027300045B7A /* GalleryLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A678C3ED231E027300045B7A /* GalleryLayout.swift */; };
+		A678C3F0231E027300045B7A /* PopupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A678C3EE231E027300045B7A /* PopupController.swift */; };
+		A678C3F6231E0C1600045B7A /* DataPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = A678C3F5231E0C1600045B7A /* DataPost.swift */; };
+		A678C3F8231E0CE700045B7A /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A678C3F7231E0CE700045B7A /* BaseVC.swift */; };
 		B5EF31B639D98D41C747ACF292FA8B4A /* UITools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D9C93744CE0471C4314C0BA495BEB05 /* UITools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CCC7B46B3CE28D58029CEA30B247E1E7 /* Pods-UITools_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E0D6AC9ACDBAED0F6CDF99BD140BDC /* Pods-UITools_Tests-dummy.m */; };
 		D6F9FE7B5CF336AA39723A7D4524DAEB /* UITools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD64E7A394D44B40B31F6BC5CE20499 /* UITools-dummy.m */; };
@@ -39,15 +42,14 @@
 /* Begin PBXFileReference section */
 		01AB9FB39609EE79996D93FFC8355881 /* Pods-UITools_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UITools_Example-umbrella.h"; sourceTree = "<group>"; };
 		0398F6E68B562047C66CF3C1DC029231 /* Pods-UITools_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UITools_Example-frameworks.sh"; sourceTree = "<group>"; };
-		0494DAA53A76A9167C76D6773B8D872D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		06EC6CAA21597BD08DC3F1E893A63355 /* Pods_UITools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UITools_Tests.framework; path = "Pods-UITools_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0494DAA53A76A9167C76D6773B8D872D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		06EC6CAA21597BD08DC3F1E893A63355 /* Pods_UITools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UITools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		08C23122461C22F7BB3E5D2CB644E247 /* Pods-UITools_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UITools_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		0CD506E09E9702419DDCC0CAF24F6221 /* UITools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UITools.xcconfig; sourceTree = "<group>"; };
-		1DD7311C3A4C49A720ACC816EC16E3CC /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = UITools/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		22A0C35DB180DEC9B160D49DAAB131AC /* UITools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = UITools.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		22A0C35DB180DEC9B160D49DAAB131AC /* UITools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = UITools.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2FE05C687422A11D38D130121827DDBD /* Pods-UITools_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UITools_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5E4EF96C8A2939E89540B7D9253369F9 /* Pods-UITools_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UITools_Example-Info.plist"; sourceTree = "<group>"; };
-		663B100685821CC3C859AF884F6A6E21 /* Pods_UITools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UITools_Example.framework; path = "Pods-UITools_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		663B100685821CC3C859AF884F6A6E21 /* Pods_UITools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UITools_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86494FC9E898F7B826B498E4DC56A1D9 /* UITools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UITools-Info.plist"; sourceTree = "<group>"; };
 		8861053AFAF42E4596F711C212907757 /* UITools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITools-prefix.pch"; sourceTree = "<group>"; };
 		8F645BF73E210960F28FCDFB2AF7C033 /* Pods-UITools_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UITools_Example-dummy.m"; sourceTree = "<group>"; };
@@ -55,16 +57,20 @@
 		8FD64E7A394D44B40B31F6BC5CE20499 /* UITools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITools-dummy.m"; sourceTree = "<group>"; };
 		94DA6287D0D2892A1CA8B0D8612D3181 /* Pods-UITools_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UITools_Tests.modulemap"; sourceTree = "<group>"; };
 		95D4278FEFCA297D13A54DE08F9A0287 /* Pods-UITools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UITools_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D9C93744CE0471C4314C0BA495BEB05 /* UITools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITools-umbrella.h"; sourceTree = "<group>"; };
+		A678C3ED231E027300045B7A /* GalleryLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GalleryLayout.swift; path = UITools/Classes/GalleryLayout.swift; sourceTree = "<group>"; };
+		A678C3EE231E027300045B7A /* PopupController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PopupController.swift; path = UITools/Classes/PopupController.swift; sourceTree = "<group>"; };
+		A678C3F5231E0C1600045B7A /* DataPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DataPost.swift; path = UITools/Classes/DataPost.swift; sourceTree = "<group>"; };
+		A678C3F7231E0CE700045B7A /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BaseVC.swift; path = UITools/Classes/BaseVC.swift; sourceTree = "<group>"; };
 		A9BEAC9F0BBC30DAA31EAEA90ABCD3D4 /* Pods-UITools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UITools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B659A368645FC05ED167E14286B1C17A /* Pods-UITools_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UITools_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C1E0D6AC9ACDBAED0F6CDF99BD140BDC /* Pods-UITools_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UITools_Tests-dummy.m"; sourceTree = "<group>"; };
-		C61BF6E711C7665A9A7A1915525BAECD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C61BF6E711C7665A9A7A1915525BAECD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		C88966002CB05916D2803EABE8857D3F /* Pods-UITools_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UITools_Tests-Info.plist"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D50943852C1A241F687B25AE3F882388 /* Pods-UITools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UITools_Example.release.xcconfig"; sourceTree = "<group>"; };
-		DC1DABA6E37C2BB27F9833CEEAE20850 /* UITools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UITools.framework; path = UITools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC1DABA6E37C2BB27F9833CEEAE20850 /* UITools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UITools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2D97845CFDB2A027A7D5D8F2C1198CB /* Pods-UITools_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UITools_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F56782514D5BEAE814AAA9264A9FABBA /* UITools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UITools.modulemap; sourceTree = "<group>"; };
 		FB4771463A27B29931E8A72815743FB3 /* Pods-UITools_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UITools_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -136,7 +142,10 @@
 		6BDD5B2217BA653E0BF50BD26E19A66A /* UITools */ = {
 			isa = PBXGroup;
 			children = (
-				1DD7311C3A4C49A720ACC816EC16E3CC /* ReplaceMe.swift */,
+				A678C3ED231E027300045B7A /* GalleryLayout.swift */,
+				A678C3EE231E027300045B7A /* PopupController.swift */,
+				A678C3F7231E0CE700045B7A /* BaseVC.swift */,
+				A678C3F5231E0C1600045B7A /* DataPost.swift */,
 				EE1A465836DDFAADF0561A0D9533DF10 /* Pod */,
 				C48172830F40EC904C68E4B848671E7A /* Support Files */,
 			);
@@ -315,12 +324,18 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					2703B92B2A619988BCB0F75079A9DB1E = {
+						LastSwiftMigration = 1020;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -364,7 +379,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E378632B8ABE4AB9BE95677A475A578 /* ReplaceMe.swift in Sources */,
 				D6F9FE7B5CF336AA39723A7D4524DAEB /* UITools-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -381,7 +395,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A678C3EF231E027300045B7A /* GalleryLayout.swift in Sources */,
+				A678C3F6231E0C1600045B7A /* DataPost.swift in Sources */,
+				A678C3F0231E027300045B7A /* PopupController.swift in Sources */,
 				9AACC453CC9F9D3B8BD2DA79BE79B8AE /* Pods-UITools_Example-dummy.m in Sources */,
+				A678C3F8231E0CE700045B7A /* BaseVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +459,7 @@
 			baseConfigurationReference = D50943852C1A241F687B25AE3F882388 /* Pods-UITools_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -463,6 +482,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -538,6 +558,7 @@
 			baseConfigurationReference = 95D4278FEFCA297D13A54DE08F9A0287 /* Pods-UITools_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -560,6 +581,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -717,8 +740,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
