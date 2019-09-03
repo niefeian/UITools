@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'UITools_Example' do
+  pod 'UITools', :path => '../'
+
+  target 'UITools_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

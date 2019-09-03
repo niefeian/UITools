@@ -1,0 +1,16 @@
+PODS:
+  - UITools (0.1.0)
+
+DEPENDENCIES:
+  - UITools (from `../`)
+
+EXTERNAL SOURCES:
+  UITools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UITools: 568cd407c8b097d96273ba1b9cef9144df5594c4
+
+PODFILE CHECKSUM: b19a08ecd9fdf431fd08045182bf04e81dedd023
+
+COCOAPODS: 1.6.1
